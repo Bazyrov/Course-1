@@ -15,4 +15,11 @@ class MainClass {
 
         return 14 ;
     }
+
+    private static String class_string = "Hello, world";
+    public String getClassString()
+    {
+        return this.class_string;
+    }
+
 }
